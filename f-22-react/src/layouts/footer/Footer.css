@@ -1,0 +1,12 @@
+.footer_block {
+    position:absolute;
+    bottom:0;
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    min-height: 50px;
+}

@@ -1,0 +1,16 @@
+header {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_menu {
+    display: flex;
+    gap: 20px;
+}
+
+.header_menu li {
+    list-style: none;
+    
+}
