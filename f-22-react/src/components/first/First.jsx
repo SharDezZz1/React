@@ -1,6 +1,8 @@
 import React from 'react'
 import { Calculator } from '../../modules/Calculator'
 
+import Number from '../Numbers/Number';
+
 const First = () => {
   const calc = new Calculator();
   const SOME_TEXT = "hello"
@@ -12,13 +14,13 @@ const First = () => {
     <>
       <h2>Test component</h2>
       <p>{SOME_TEXT}</p>
-      <p>{calcTwoNumbers(2, 4)}</p>
-      <p>{calc.sum(2, 6)}</p>
+      {/* <p>{calcTwoNumbers(2, 4)}</p>
+      <p>{calc.sum(2, 6)}</p> */}
       <div>
         {
           arr.map((el) => {
             return (
-              <p>{el}</p>
+              <Number number={el} key={el} />
             )
           })
         }
